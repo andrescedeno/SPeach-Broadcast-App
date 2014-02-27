@@ -269,7 +269,7 @@ public class DictationView extends Activity
                 android.util.Log.d("Nuance SampleVoiceApp", "Recognizer.Listener.onError: session id ["
                         + MainView.getSpeechKit().getSessionId() + "]");
             }
-
+// random comment for commit
             @Override
             public void onResults(Recognizer recognizer, Recognition results) {
             	
